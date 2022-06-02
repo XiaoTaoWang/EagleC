@@ -25,6 +25,12 @@ Unique features of EagleC
 - EagleC can be used to predict SVs in any species (it has been tested in human, mouse, and
   zebrafish)
 
+
+Citation
+========
+Wang, X., Luan, Y., Yue, F. EagleC: A deep-learning framework for detecting a full range of
+structural variations from bulk and single-cell contact maps. Sci Adv. 2022.
+
 Navigation
 ==========
 - `Installation`_
