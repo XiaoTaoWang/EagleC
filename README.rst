@@ -45,6 +45,8 @@ Navigation
 
 Installation
 ============
+.. note:: currently EagleC may only be installed and run in Linux systems
+
 First, install following python packages through `conda <https://conda.io/miniconda.html>`_::
 
     $ conda config --add channels defaults
@@ -56,9 +58,9 @@ First, install following python packages through `conda <https://conda.io/minico
    to view the predicted SVs on contact maps, and *pyensembl* is only required if you want to annotate
    potential gene fusions given a list of SV breakpoints.
 
-Then download the compiled EagleC package and install it using pip::
+Then install the compiled EagleC package from `PyPI <https://pypi.org/project/eaglec/>`_::
 
-    $ pip install eaglec-0.1.2-cp38-cp38-linux_x86_64.whl
+    $ pip install eaglec
 
 Download pre-trained models
 ===========================
