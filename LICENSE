@@ -1,0 +1,22 @@
+Copyright (c) 2022, Xiaotao Wang and Feng Yue
+All rights reserved.
+
+This software is provided free of charge to the academic research community for non-commercial
+research and educational purposes only. It may not be redistributed in any form, without prior
+written permission from the authors. Permission is granted to modify the code for your own personal
+use, but modified versions must retain this copyright notice and must not be distributed.
+It cannot be used for commercial purposes without permission from the authors. For information on
+the use for a commercial purpose or by a commercial or for-profit entity, please contact
+Dr. Feng Yue (yue@northwestern.edu).
+
+If utilization of EagleC (or the modified versions) results in a publication, please cite
+the following publication:
+
+Wang, X., Luan, Y., Yue, F. EagleC: A deep-learning framework for detecting a full range of
+structural variations from bulk and single-cell contact maps. Sci Adv. 2022.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+THE USE OR OTHER DEALINGS IN THE SOFTWARE.
