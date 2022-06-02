@@ -58,7 +58,7 @@ First, install following python packages through `conda <https://conda.io/minico
 
 Then install the compiled EagleC package using pip::
 
-    $ pip install EagleC-0.1.0-cp38-cp38-linux_x86_64.whl
+    $ pip install eaglec-0.1.2-cp38-cp38-linux_x86_64.whl
 
 Download pre-trained models
 ===========================
