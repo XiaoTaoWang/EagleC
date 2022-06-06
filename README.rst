@@ -91,12 +91,14 @@ window to learn the basic usage of each command.
 
   The inputs to this command are three genome-wide contact maps at 5kb, 10kb, and 50kb
   resolutions in .cool format (cool URIs, refer to `cooler <https://github.com/open2c/cooler>`_
-  if you are not familiar with this format). The predicted SVs can be selected to be reported
-  in two formats: 1) "--output-format full" will report 8 columns for each SV, including breakpoint
-  coordinates (chrom1, pos1, chrom2, pos2) and probability values of each fusion type
-  (++, +-, -+, and --) (refer to Figures S1-S2 for the definition of each fusion type);
-  2) "--output-format NeoLoopFinder" will output a file (6 columns) that can be directly used as
-  the `NeoLoopFinder <https://github.com/XiaoTaoWang/NeoLoopFinder>`_ input.
+  if you are not familiar with this format). If you only have `.hic files <https://github.com/aidenlab/juicer>`_,
+  consider converting your files to the ".cool" format using `hic2cool <https://github.com/4dn-dcic/hic2cool>`_
+  or `pairLiftOver <https://github.com/XiaoTaoWang/pairLiftOver#usage>`_. The predicted SVs can
+  be selected to be reported in two formats: 1) "--output-format full" will report 8 columns
+  for each SV, including breakpoint coordinates (chrom1, pos1, chrom2, pos2) and probability
+  values of each fusion type (++, +-, -+, and --) (refer to Figures S1-S2 for the definition
+  of each fusion type); 2) "--output-format NeoLoopFinder" will output a file (6 columns) that
+  can be directly used as the `NeoLoopFinder <https://github.com/XiaoTaoWang/NeoLoopFinder>`_ input.
 
 - predictSV-single-resolution
 
