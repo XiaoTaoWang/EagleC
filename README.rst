@@ -213,7 +213,7 @@ Then all you need to do is to submit this script for a certain number of times::
 The above command will launch 16 parallelized jobs and should be able to finish within 2 hours.
 
 .. note:: EagleC will cache all the intermediate results within hidden folders in
-   your current working directory. In this case, these folders will be prefixed with
+   your current working directory. In this example, these folders will be prefixed with
    ".SKNAS-MboI-allReps-filtered.mcool". If you want to start a fresh job without using
    previous cached results, or if your previous jobs were manually killed or terminated
    by the system, you may need to first remove those intermediate files by executing
