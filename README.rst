@@ -215,9 +215,9 @@ The above command will launch 16 parallelized jobs and should be able to finish 
 .. note:: EagleC will cache all the intermediate results within hidden folders in
    your current working directory. In this example, these folders will be prefixed with
    ".SKNAS-MboI-allReps-filtered.mcool". If you want to start a fresh job without using
-   previous cached results, or if your previous jobs were manually killed or terminated
+   previous cached results, or if your previous jobs were killed or terminated
    by the system, you may need to first remove those intermediate files by executing
-   for example, ``rm -rf .SKNAS-MboI-allReps-filtered.mcool*`` in this case.
+   ``rm -rf .SKNAS-MboI-allReps-filtered.mcool*``.
 
 
 If no errors occurred, 6 files ("SK-N-AS.CNN_SVs.10K_highres.txt", "SK-N-AS.CNN_SVs.10K.txt",
