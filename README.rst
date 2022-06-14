@@ -12,6 +12,9 @@ and capture Hi-C. We apply EagleC in over 100 cancer cell lines and primary tumo
 identify a valuable set of high-quality SVs. Finally, we demonstrate that EagleC can be
 applied to single-cell Hi-C and used to study the SV heterogeneity in primary tumors.
 
+.. image:: ./images/framework.png
+        :align: center
+
 Unique features of EagleC
 =========================
 - EagleC is able to accurately detect a full range of SVs including short-range SVs with
