@@ -1,20 +1,16 @@
 EagleC
 ******
-Hi-C, a technique that was originally invented to study three-dimensional genome
-structure, has been shown to be a promising method to detect structural variations
-(SVs) in cancer and other human diseases. However, algorithms that can take such
-advantage of Hi-C data for full-range SV detection have been severely lacking.
-Current state-of-the-art software can only identify inter-chromosomal translocations
-and long-range intra-chromosomal SVs (>1Mb). Therefore, we develop EagleC, a
-computational framework that combines deep-learning and ensemble-learning strategies
-to predict a full range of SVs at high-resolution, including many short-range SVs
-that were missed or mis-labeled as chromatin loops in previous approaches. More
-importantly, we demonstrate that EagleC also effectively captures SVs in other major
-chromatin interaction platforms, such as HiChIP, ChIA-PET, and capture Hi-C. We apply
-EagleC in over 100 cancer cell lines and primary tumors, and identify a valuable set
-of high-quality SVs that are related with key cancer gene regulation through the
-disruption of 3D genome organization. Finally, we extend the framework to single-cell
-Hi-C and demonstrate its potential in studying SV heterogeneity in primary tumors.
+Hi-C technique has been shown to be a promising method to detect structural variations (SVs)
+in human genomes. However, algorithms that can use Hi-C data for a full-range SV detection
+have been severely lacking. Current methods can only identify inter-chromosomal translocations
+and long-range intra-chromosomal SVs (>1Mb) at less-than-optimal resolution. Therefore, we
+develop EagleC, a framework that combines deep-learning and ensemble-learning strategies to
+predict a full-range of SVs at high-resolution. Importantly, we show that EagleC can uniquely
+capture a set of fusion genes that are missed by WGS or nanopore. Furthermore, EagleC also
+effectively captures SVs in other chromatin interaction platforms, such as HiChIP, ChIA-PET,
+and capture Hi-C. We apply EagleC in over 100 cancer cell lines and primary tumors, and
+identify a valuable set of high-quality SVs. Finally, we demonstrate that EagleC can be
+applied to single-cell Hi-C and used to study the SV heterogeneity in primary tumors.
 
 Unique features of EagleC
 =========================
