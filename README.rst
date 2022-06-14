@@ -64,7 +64,7 @@ EagleC from `PyPI <https://pypi.org/project/eaglec/>`_::
 If you are installing EagleC in MacOS, please download and install an appropriate package
 from `here <https://github.com/XiaoTaoWang/EagleC/releases>`_::
 
-    $ pip install eaglec-0.1.4-cp38-cp38-macosx_10_9_x86_64.whl
+    $ pip install eaglec-0.1.5-cp38-cp38-macosx_10_9_x86_64.whl
 
 Download pre-trained models
 ===========================
