@@ -44,12 +44,12 @@ Navigation
 
 Installation
 ============
-First, install following python packages through `conda <https://conda.io/miniconda.html>`_::
+First, install following python packages using `mamba <https://mamba.readthedocs.io/en/latest/installation.html>`_::
 
     $ conda config --add channels defaults
     $ conda config --add channels bioconda
     $ conda config --add channels conda-forge
-    $ conda create -n EagleC python=3.8.12 cooler=0.8.6 joblib=1.0.1 scikit-learn=0.24.1 statsmodels=0.12.2 tensorflow=2.3.0 cython=0.29.24 matplotlib pyBigWig pyensembl
+    $ mamba create -n EagleC scikit-learn statsmodels matplotlib cooler pyBigWig pyensembl python=3.8 joblib=1.0.1 tensorflow=2 cython=0.29.24
 
 .. note:: *matplotlib* and *pyBigWig* are only required if you want to use the visualization module
    to view the predicted SVs on contact maps, and *pyensembl* is only required if you want to annotate
@@ -63,7 +63,7 @@ EagleC from `PyPI <https://pypi.org/project/eaglec/>`_::
 If you are installing EagleC in MacOS, please download and install an appropriate package
 from `here <https://github.com/XiaoTaoWang/EagleC/releases>`_::
 
-    $ pip install eaglec-0.1.7-cp38-cp38-macosx_10_9_x86_64.whl
+    $ pip install eaglec-0.1.9-cp38-cp38-macosx_10_9_x86_64.whl
 
 Download pre-trained models
 ===========================
@@ -197,7 +197,7 @@ you need to create a job submission script. Here is an example slurm script name
     #SBATCH --error=predictSV.%j.%N.err
 
     source /home/xwl2576/.bashrc
-    conda activate EagleC
+    mamba activate EagleC
 
     predictSV --hic-5k SKNAS-MboI-allReps-filtered.mcool::/resolutions/5000 \
               --hic-10k SKNAS-MboI-allReps-filtered.mcool::/resolutions/10000 \
@@ -372,7 +372,7 @@ Again, let's create a job submission script "slurm-predictSV-2k.sh"::
     #SBATCH --error=eaglec.%j.%N.err
 
     source /home/xwl2576/.bashrc
-    conda activate EagleC
+    mamba activate EagleC
 
     predictSV-single-resolution --hic ChIA-PET_hg38_MCF7_CTCF_pairs.2K.cool \
                                 -O MCF7_CTCF-ICE.SVs.2k.txt -g hg38 \
