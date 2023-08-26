@@ -49,7 +49,7 @@ First, install following python packages using `mamba <https://mamba.readthedocs
     $ conda config --add channels defaults
     $ conda config --add channels bioconda
     $ conda config --add channels conda-forge
-    $ mamba create -n EagleC scikit-learn statsmodels matplotlib cooler pyBigWig pyensembl python=3.8 joblib=1.0.1 tensorflow=2 cython=0.29.24
+    $ mamba create -n EagleC scikit-learn statsmodels matplotlib cooler pyBigWig pyensembl python=3.8 joblib=1.0.1 cython=0.29.24 "tensorflow<=2.11"
 
 .. note:: *matplotlib* and *pyBigWig* are only required if you want to use the visualization module
    to view the predicted SVs on contact maps, and *pyensembl* is only required if you want to annotate
