@@ -58,7 +58,7 @@ First, install following python packages using `mamba <https://mamba.readthedocs
 If you are installing EagleC in Linux, just execute the command below to install
 EagleC from `PyPI <https://pypi.org/project/eaglec/>`_::
 
-    $ pip install eaglec
+    $ pip install eaglec==0.1.9
 
 If you are installing EagleC in MacOS, please download and install an appropriate package
 from `here <https://github.com/XiaoTaoWang/EagleC/releases>`_::
