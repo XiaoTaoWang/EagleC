@@ -1,8 +1,8 @@
-EagleC
-******
 .. note:: `EagleC2 <https://github.com/XiaoTaoWang/EagleC2>`_ is now publicly available.
     Try it and let us know your feedback!
 
+EagleC
+******
 Hi-C technique has been shown to be a promising method to detect structural variations (SVs)
 in human genomes. However, algorithms that can use Hi-C data for a full-range SV detection
 have been severely lacking. Current methods can only identify inter-chromosomal translocations
